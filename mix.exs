@@ -43,7 +43,7 @@ defmodule PhoenixLiveSession.MixProject do
     [
       {:plug, "~> 1.10"},
       {:phoenix_pubsub, "~> 2.0"},
-      {:phoenix_live_view, "~> 0.5"},
+      {:phoenix_live_view, "~> 1.0"},
       {:ex_doc, ">= 0.0.0", only: :dev, runtime: false}
     ]
   end
